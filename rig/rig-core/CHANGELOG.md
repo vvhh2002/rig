@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.31.0](https://github.com/0xPlaygrounds/rig/compare/rig-core-v0.30.0...rig-core-v0.31.0) - 2026-02-06
+
+### Added
+
+- *(rig-1182)* single-text serialization to single string (openai) ([#1367](https://github.com/0xPlaygrounds/rig/pull/1367))
+- add reqwest middleware example ([#1359](https://github.com/0xPlaygrounds/rig/pull/1359))
+
+### Fixed
+
+- fix ollama dims miss ([#1199](https://github.com/0xPlaygrounds/rig/pull/1199))
+- *(rig-1182)* assistantcontent serialization when empty (openai) ([#1369](https://github.com/0xPlaygrounds/rig/pull/1369))
+- *(rig-1183)* invalid options provided (ollama) ([#1365](https://github.com/0xPlaygrounds/rig/pull/1365))
+
+### Other
+
+- *(rig-1184)* remove AgentBuilderSimple ([#1368](https://github.com/0xPlaygrounds/rig/pull/1368))
+- propagate current span to tool call ([#1361](https://github.com/0xPlaygrounds/rig/pull/1361))
+- *(rig-1176)* unify prompt hook interfaces ([#1352](https://github.com/0xPlaygrounds/rig/pull/1352))
+
 ## [0.30.0](https://github.com/0xPlaygrounds/rig/compare/rig-core-v0.29.0...rig-core-v0.30.0) - 2026-02-03
 
 ### Added
